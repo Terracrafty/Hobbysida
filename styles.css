@@ -12,6 +12,7 @@ body {
 }
 
 article {
+    box-sizing: border-box;
     width: auto;
     height: auto;
     margin: 20px 10%;
@@ -22,13 +23,34 @@ article {
 }
 
 article img {
+    display: block;
     border: black solid 2px;
     border-radius: 5px;
-    margin: 5px 10px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 300px;
+    height: auto;
+}
+
+.image_group {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.image_group > img {
+    display: inline;
 }
 
 .video {
-    margin: 5px auto;
+    display: block;
+    margin: auto;
+    width: 80%;
+    max-width: 560px;
+}
+
+li {
+    margin-bottom: 5px;
 }
 
 footer {
