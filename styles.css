@@ -1,0 +1,38 @@
+
+header {
+    text-align: center;
+    background-color: burlywood;
+    margin: 0px 0px 40px;
+    padding: 10px;
+}
+
+body {
+    background-color: beige;
+    margin: 0px;
+}
+
+article {
+    width: auto;
+    height: auto;
+    margin: 20px 10%;
+    padding: 10px 40px 40px;
+    background-color: white;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+
+article img {
+    border: black solid 2px;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+.video {
+    margin: 5px auto;
+}
+
+footer {
+    background-color: burlywood;
+    margin: 20px 0px 0px;
+    padding: 20px;
+}
