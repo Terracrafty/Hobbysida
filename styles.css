@@ -6,6 +6,15 @@ header {
     padding: 10px;
 }
 
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+
 body {
     background-color: beige;
     margin: 0px;
@@ -13,9 +22,10 @@ body {
 
 article {
     box-sizing: border-box;
-    width: auto;
+    max-width: 800px;
+    width: 100%;
     height: auto;
-    margin: 20px 10%;
+    margin: 20px;
     padding: 10px 40px 40px;
     background-color: white;
     border: black solid 2px;
